@@ -12,6 +12,10 @@ import {
   Dumbbell,
   Sparkles,
   Brain,
+  Activity,
+  Scan,
+  Briefcase,
+  Car,
 } from 'lucide-react';
 import Card from '../ui/Card';
 import SectionWrapper from '../ui/SectionWrapper';
@@ -91,6 +95,42 @@ const Specialties = () => {
       name: 'Psicologia',
       description: 'Cuidado da saúde mental e emocional.',
       color: 'bg-indigo-100 text-indigo-600',
+    },
+    {
+      icon: <Activity className="w-8 h-8" />,
+      name: 'Psiquiatria',
+      description: 'Diagnóstico e tratamento de transtornos mentais.',
+      color: 'bg-purple-100 text-purple-600',
+    },
+    {
+      icon: <Baby className="w-8 h-8" />,
+      name: 'Geriatria',
+      description: 'Cuidados especializados para a saúde do idoso.',
+      color: 'bg-amber-100 text-amber-600',
+    },
+    {
+      icon: <Stethoscope className="w-8 h-8" />,
+      name: 'Ginecologia',
+      description: 'Saúde integral da mulher em todas as fases da vida.',
+      color: 'bg-rose-100 text-rose-600',
+    },
+    {
+      icon: <Scan className="w-8 h-8" />,
+      name: 'Ultrassonografia',
+      description: 'Diagnóstico por imagem com tecnologia avançada.',
+      color: 'bg-cyan-100 text-cyan-600',
+    },
+    {
+      icon: <Briefcase className="w-8 h-8" />,
+      name: 'Medicina do Trabalho',
+      description: 'Saúde ocupacional e prevenção de doenças profissionais.',
+      color: 'bg-slate-100 text-slate-600',
+    },
+    {
+      icon: <Car className="w-8 h-8" />,
+      name: 'Medicina do Tráfego',
+      description: 'Avaliação de aptidão para condutores.',
+      color: 'bg-lime-100 text-lime-600',
     },
   ];
 
