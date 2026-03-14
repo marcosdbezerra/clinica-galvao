@@ -26,7 +26,7 @@ const Location = () => {
     cep: 'CEP: 62690-000',
     phone: '(85) 99643-8060',
     whatsapp: '85996438060',
-    email: 'contato@clinicagalvao.com.br',
+    email: 'clinicagalvao@hotmail.com',
   };
 
   const openGoogleMaps = () => {

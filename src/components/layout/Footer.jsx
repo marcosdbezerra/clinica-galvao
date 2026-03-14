@@ -112,10 +112,10 @@ const Footer = () => {
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0" />
                 <a
-                  href="mailto:contato@clinicagalvao.com.br"
+                  href="mailto:clinicagalvao@hotmail.com"
                   className="text-gray-400 hover:text-primary transition-colors duration-300"
                 >
-                  contato@clinicagalvao.com.br
+                  clinicagalvao@hotmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -166,7 +166,7 @@ const Footer = () => {
                 Diretor Clínico
               </h5>
               <p className="font-bold text-white">Dr. Pedro Henrique Galvão</p>
-              <p className="text-sm text-gray-400">CRM/CE 123456</p>
+              <p className="text-sm text-gray-400">CRM/CE 14871</p>
               <p className="text-xs text-gray-500 mt-2">
                 Diretor Clínico - Nutrólogo
               </p>
