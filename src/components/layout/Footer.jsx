@@ -65,9 +65,9 @@ const Footer = () => {
               {[
                 { name: 'Início', id: 'home' },
                 { name: 'Especialidades', id: 'specialties' },
-                { name: 'Nosso Ambiente', id: 'environment' },
+                { name: 'Ambiente', id: 'environment' },
                 { name: 'Equipe', id: 'team' },
-                { name: 'Localização', id: 'location' },
+                { name: 'Agendar', id: 'location' },
               ].map((link) => (
                 <li key={link.id}>
                   <button
@@ -92,11 +92,11 @@ const Footer = () => {
           >
             <h4 className="text-lg font-bold mb-4">Contato</h4>
             <ul className="space-y-4">
-              <li className="flex items-start gap-3">
+              <li className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <div>
-                  <p className="text-gray-400">Rua Manoel Teixeira, 215</p>
-                  <p className="text-gray-400">Centro, Trairi - CE</p>
+                  <p className="text-gray-400 leading-[1.2]">Rua Manoel Teixeira, 215 - Centro |<br /> Trairi - CE</p>
+                  <p className="text-gray-400"></p>
                   <p className="text-gray-400 text-sm">CEP: 62690-000</p>
                 </div>
               </li>

@@ -2,6 +2,15 @@ import React, { useRef, useState, useCallback, useEffect } from 'react';
 import { motion, useMotionValue } from 'framer-motion';
 import Card from '../ui/Card';
 import SectionWrapper from '../ui/SectionWrapper';
+import amandaGalvao from '../../assets/team/amanda-galvao.png';
+import eduardoSoares from '../../assets/team/eduardo-soares.png';
+import flavioStudart from '../../assets/team/flavio-studart.png';
+import laylaMenezes from '../../assets/team/layla-menezes.png';
+import mariliaDantas from '../../assets/team/marilia-dantas.png';
+import oliviaMagalhaes from '../../assets/team/olivia-magalhaes.png';
+import renataBraga from '../../assets/team/renata-braga.png';
+import romeniaOliveira from '../../assets/team/romenia-oliveira.png';
+import photoMock from '../../assets/team/photo-mock.jpg';
 
 const Team = () => {
   const carouselRef = useRef(null);
@@ -16,119 +25,119 @@ const Team = () => {
       name: 'Dra. Amanda Galvão',
       specialty: 'Farmacêutica Esteta',
       crm: 'CRF/CE 8134',
-      photo: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&q=80',
+      photo: amandaGalvao,
       bio: 'Especialista em procedimentos estéticos avançados e cuidados farmacêuticos, focada em saúde estética e bem-estar.',
     },
     {
       name: 'Dra. Amanda Sales',
       specialty: 'Nutricionista',
       crm: 'CRN/CE 118782',
-      photo: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80',
+      photo: photoMock,
       bio: 'Focada em reeducação alimentar e nutrição clínica, promovendo saúde e qualidade de vida através de planos alimentares personalizados.',
     },
     {
       name: 'Dr. Artur Gadelha',
       specialty: 'Clínico Geral',
       crm: 'CRM/CE 23594',
-      photo: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80',
+      photo: photoMock,
       bio: 'Atendimento médico integral e preventivo, focado no diagnóstico e acompanhamento geral da saúde para todas as idades.',
     },
     {
       name: 'Dra. Cybelle Façanha',
       specialty: 'Nutricionista Esportiva e Ortomolecular',
       crm: 'CRN/CE 8498',
-      photo: 'https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&q=80',
+      photo: photoMock,
       bio: 'Especialista em performance esportiva e equilíbrio metabólico, utilizando a nutrição ortomolecular para otimizar resultados.',
     },
     {
       name: 'Dr. Davi Candeira',
       specialty: 'Dermatologista',
       crm: 'CRM/CE 23691',
-      photo: 'https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400&q=80',
+      photo: photoMock,
       bio: 'Especialista no diagnóstico e tratamento de doenças da pele, cabelos e unhas, além de procedimentos dermatológicos estéticos.',
     },
     {
       name: 'Dr. Eduardo Soares',
       specialty: 'Médico Ultrassonografista',
       crm: 'CRM/CE 12578',
-      photo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80',
+      photo: eduardoSoares,
       bio: 'Especialista em diagnóstico por imagem, realizando exames de ultrassonografia com precisão para suporte clínico e preventivo.',
     },
     {
       name: 'Dr. Flávio Studart',
       specialty: 'Cardiologista',
       crm: 'CRM/CE 11583',
-      photo: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80',
+      photo: flavioStudart,
       bio: 'Especialista em saúde do coração, com foco na prevenção, diagnóstico e tratamento de doenças cardiovasculares.',
     },
     {
       name: 'Dr. Gilmar Rodrigues',
       specialty: 'Psiquiatra',
       crm: 'CRM/CE 27182',
-      photo: 'https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&q=80',
+      photo: photoMock,
       bio: 'Médico dedicado ao diagnóstico e tratamento de transtornos mentais, buscando o equilíbrio psíquico e bem-estar do paciente.',
     },
     {
       name: 'Dra. Jamille Morais',
       specialty: 'Nutricionista Infantil',
       crm: 'CRN/CE 116593',
-      photo: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80',
+      photo: photoMock,
       bio: 'Nutricionista especializada no cuidado alimentar de crianças, focada em introdução alimentar e hábitos saudáveis desde a infância.',
     },
     {
       name: 'Dra. Layla Menezes',
       specialty: 'Psicóloga',
       crm: 'CRP/CE 1118405',
-      photo: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80',
+      photo: laylaMenezes,
       bio: 'Cuidado da saúde mental e emocional através de psicoterapia personalizada, auxiliando no autoconhecimento e equilíbrio.',
     },
     {
       name: 'Dra. Lívia Mota',
       specialty: 'Pediatra',
       crm: 'CRM/CE 19833',
-      photo: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80',
+      photo: photoMock,
       bio: 'Atendimento especializado para bebês e crianças, focada no desenvolvimento infantil saudável e medicina preventiva.',
     },
     {
-      name: 'Dra. Marília Lago',
+      name: 'Dra. Marília Dantas',
       specialty: 'Psicóloga do Trânsito',
       crm: 'CRP/CE 1105603',
-      photo: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80',
+      photo: mariliaDantas,
       bio: 'Psicóloga perita especializada em avaliações psicológicas para condutores e análise do comportamento no trânsito.',
     },
     {
-      name: 'Dra. Olívia Carneiro',
+      name: 'Dra. Olívia Magalhães',
       specialty: 'Médica do Trabalho | Médica do Tráfego | Ginecologista',
       crm: 'CRM/CE 18114',
-      photo: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80',
+      photo: oliviaMagalhaes,
       bio: 'Atuação multidisciplinar em saúde ocupacional, medicina do tráfego e cuidados integrais à saúde da mulher.',
     },
     {
       name: 'Dr. Pedro Henrique Galvão',
       specialty: 'Nutrólogo | Geriatra',
       crm: 'CRM/CE 14871',
-      photo: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80',
+      photo: photoMock,
       bio: 'Focado no tratamento de doenças ligadas à nutrição e no cuidado especializado para a saúde e longevidade do idoso.',
     },
     {
       name: 'Dra. Renata Braga',
       specialty: 'Psicóloga',
       crm: 'CRP/CE 1115683',
-      photo: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80',
+      photo: renataBraga,
       bio: 'Apoio psicológico e psicoterapia para o tratamento de questões emocionais, visando a saúde mental e qualidade de vida.',
     },
     {
       name: 'Dra. Romênia Oliveira',
       specialty: 'Fonoaudióloga',
       crm: 'CRFA 8-10.978-3',
-      photo: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80',
+      photo: romeniaOliveira,
       bio: 'Especialista em comunicação, fala e audição, atuando na reabilitação e aprimoramento das funções orofaciais.',
     },
     {
       name: 'Dra. Sherliane Furtado',
       specialty: 'Fisioterapeuta',
       crm: 'CREFITO 405612-F',
-      photo: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80',
+      photo: photoMock,
       bio: 'Especialista em reabilitação física e tratamento de dores, focada na recuperação funcional e mobilidade dos pacientes.',
     }
   ];
@@ -263,7 +272,7 @@ const Team = () => {
         {/* Carousel Container */}
         <div
           ref={containerRef}
-          className="relative overflow-hidden"
+          className="relative overflow-hidden -mx-[calc(50vw-50%)] md:-mx-[calc(50vw-50%-8px)]"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
           style={{ cursor: isDragging ? 'grabbing' : 'grab' }}
@@ -271,7 +280,7 @@ const Team = () => {
           {/* Scrollable Container with Infinite Animation */}
           <motion.div
             ref={carouselRef}
-            className="flex gap-6 pb-6 pt-2"
+            className="flex gap-6 pb-6 pt-2 px-4 sm:px-6 lg:px-8"
             style={{
               x,
               width: 'max-content',
@@ -320,35 +329,6 @@ const Team = () => {
           </motion.div>
         </div>
       </div>
-
-      {/* CTA Section */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.5, delay: 0.4 }}
-        className="mt-12 p-8 bg-white rounded-2xl shadow-lg text-center"
-      >
-        <h3 className="text-2xl font-bold text-gray-900 mb-3">
-          Agende sua consulta
-        </h3>
-        <p className="text-secondary mb-6 max-w-2xl mx-auto">
-          Nossa equipe está sempre pronta para atendê-lo com dedicação e
-          profissionalismo. Entre em contato e conheça nosso atendimento
-          diferenciado.
-        </p>
-        <button
-          onClick={() => {
-            const element = document.getElementById('location');
-            if (element) {
-              element.scrollIntoView({ behavior: 'smooth' });
-            }
-          }}
-          className="px-8 py-4 bg-primary text-white font-semibold rounded-xl hover:bg-primary-dark transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
-        >
-          Agendar Consulta
-        </button>
-      </motion.div>
     </SectionWrapper>
   );
 };
