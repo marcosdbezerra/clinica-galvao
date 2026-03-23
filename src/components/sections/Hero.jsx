@@ -1,8 +1,7 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Stethoscope, Heart, Users } from 'lucide-react';
+import fachada from '../../assets/fachada.jpg'
 import Button from '../ui/Button';
-import SectionWrapper from '../ui/SectionWrapper';
 
 const Hero = () => {
   const whatsappNumber = '5511999999999'; // Replace with actual number
@@ -154,7 +153,7 @@ const Hero = () => {
                 className="relative z-10 rounded-2xl overflow-hidden shadow-2xl"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=800&fit=crop"
+                  src={fachada}
                   alt="Fachada da Clínica Galvão"
                   className="w-full h-auto aspect-square object-cover"
                 />

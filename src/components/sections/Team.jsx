@@ -1,6 +1,5 @@
-import React, { useRef, useState, useCallback, useEffect } from 'react';
+import { useRef, useState, useCallback, useEffect } from 'react';
 import { motion, useMotionValue } from 'framer-motion';
-import Card from '../ui/Card';
 import SectionWrapper from '../ui/SectionWrapper';
 import amandaGalvao from '../../assets/team/amanda-galvao.png';
 import eduardoSoares from '../../assets/team/eduardo-soares.png';
@@ -8,6 +7,7 @@ import flavioStudart from '../../assets/team/flavio-studart.png';
 import laylaMenezes from '../../assets/team/layla-menezes.png';
 import mariliaDantas from '../../assets/team/marilia-dantas.png';
 import oliviaMagalhaes from '../../assets/team/olivia-magalhaes.png';
+import phGalvao from '../../assets/team/pedro-henrique-galvao.png';
 import renataBraga from '../../assets/team/renata-braga.png';
 import romeniaOliveira from '../../assets/team/romenia-oliveira.png';
 import photoMock from '../../assets/team/photo-mock.jpg';
@@ -116,7 +116,7 @@ const Team = () => {
       name: 'Dr. Pedro Henrique Galvão',
       specialty: 'Nutrólogo | Geriatra',
       crm: 'CRM/CE 14871',
-      photo: photoMock,
+      photo: phGalvao,
       bio: 'Focado no tratamento de doenças ligadas à nutrição e no cuidado especializado para a saúde e longevidade do idoso.',
     },
     {
