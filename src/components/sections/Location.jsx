@@ -46,14 +46,14 @@ const Location = () => {
   return (
     <SectionWrapper id="location" bgColor="white">
       {/* Section Header */}
-      <div className="text-center mb-12 md:mb-16">
+      <div className="flex flex-col items-center text-center mb-12 md:mb-16">
           {/* WhatsApp CTA */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="bg-gradient-to-br from-[#25D366]/10 to-[#25D366]/5 rounded-2xl p-8 text-center mb-8"
+            className="bg-gradient-to-br md:w-[50%] from-[#25D366]/10 to-[#25D366]/5 rounded-2xl p-8 text-center mb-8"
           >
             <div className="w-16 h-16 bg-[#25D366] rounded-2xl flex items-center justify-center mx-auto mb-4">
               <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
