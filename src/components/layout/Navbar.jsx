@@ -47,6 +47,7 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Início', id: 'home' },
+    { name: 'Sobre', id: 'sobre' },
     { name: 'Especialidades', id: 'specialties' },
     { name: 'Ambiente', id: 'environment' },
     { name: 'Equipe', id: 'team' },

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Hero from './components/sections/Hero';
+import AboutCEO from './components/sections/AboutCEO';
 import Specialties from './components/sections/Specialties';
 import Environment from './components/sections/Environment';
 import Team from './components/sections/Team';
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <AboutCEO />
         <Specialties />
         <Environment />
         <Team />

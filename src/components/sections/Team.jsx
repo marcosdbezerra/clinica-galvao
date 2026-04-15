@@ -107,7 +107,7 @@ const Team = () => {
     },
     {
       name: 'Dra. Olívia Magalhães',
-      specialty: 'Médica do Trabalho | Médica do Tráfego | Ginecologista',
+      specialty: 'Médica do Trabalho | Médica do Tráfego | Ginecologia',
       crm: 'CRM/CE 18114',
       photo: oliviaMagalhaes,
       bio: 'Atuação multidisciplinar em saúde ocupacional, medicina do tráfego e cuidados integrais à saúde da mulher.',
@@ -151,7 +151,7 @@ const Team = () => {
   useEffect(() => {
     let animationFrameId;
     let startTime;
-    const speed = totalWidth / 30000; // pixels per millisecond (30 seconds for full cycle)
+    const speed = totalWidth / 60000; // pixels per millisecond (30 seconds for full cycle)
 
     const animate = (timestamp) => {
       if (!startTime) startTime = timestamp;
