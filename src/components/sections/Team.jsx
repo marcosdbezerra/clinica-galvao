@@ -2,14 +2,17 @@ import { useRef, useState, useCallback, useEffect } from 'react';
 import { motion, useMotionValue } from 'framer-motion';
 import SectionWrapper from '../ui/SectionWrapper';
 import amandaGalvao from '../../assets/team/amanda-galvao.png';
+import amandaSales from '../../assets/team/amanda-sales.png';
 import eduardoSoares from '../../assets/team/eduardo-soares.png';
 import flavioStudart from '../../assets/team/flavio-studart.png';
 import laylaMenezes from '../../assets/team/layla-menezes.png';
+import liviaMota from '../../assets/team/livia-mota.png';
 import mariliaDantas from '../../assets/team/marilia-dantas.png';
 import oliviaMagalhaes from '../../assets/team/olivia-magalhaes.png';
 import phGalvao from '../../assets/team/pedro-henrique-galvao.png';
 import renataBraga from '../../assets/team/renata-braga.png';
 import romeniaOliveira from '../../assets/team/romenia-oliveira.png';
+import sherlianeFurtado from '../../assets/team/sherliane-furtado.png';
 import photoMock from '../../assets/team/photo-mock.jpg';
 
 const Team = () => {
@@ -32,7 +35,7 @@ const Team = () => {
       name: 'Dra. Amanda Sales',
       specialty: 'Nutricionista',
       crm: 'CRN/CE 118782',
-      photo: photoMock,
+      photo: amandaSales,
       bio: 'Focada em reeducação alimentar e nutrição clínica, promovendo saúde e qualidade de vida através de planos alimentares personalizados.',
     },
     {
@@ -95,7 +98,7 @@ const Team = () => {
       name: 'Dra. Lívia Mota',
       specialty: 'Pediatra',
       crm: 'CRM/CE 19833',
-      photo: photoMock,
+      photo: liviaMota,
       bio: 'Atendimento especializado para bebês e crianças, focada no desenvolvimento infantil saudável e medicina preventiva.',
     },
     {
@@ -137,7 +140,7 @@ const Team = () => {
       name: 'Dra. Sherliane Furtado',
       specialty: 'Fisioterapeuta',
       crm: 'CREFITO 405612-F',
-      photo: photoMock,
+      photo: sherlianeFurtado,
       bio: 'Especialista em reabilitação física e tratamento de dores, focada na recuperação funcional e mobilidade dos pacientes.',
     }
   ];
