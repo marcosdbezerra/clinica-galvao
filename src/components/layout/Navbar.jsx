@@ -49,7 +49,7 @@ const Navbar = () => {
     { name: 'Início', id: 'home' },
     { name: 'Sobre', id: 'sobre' },
     { name: 'Especialidades', id: 'specialties' },
-    { name: 'Ambiente', id: 'environment' },
+    //{ name: 'Ambiente', id: 'environment' },
     { name: 'Equipe', id: 'team' },
   ];
 

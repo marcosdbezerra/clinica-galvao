@@ -3,11 +3,13 @@ import { motion, useMotionValue } from 'framer-motion';
 import SectionWrapper from '../ui/SectionWrapper';
 import amandaGalvao from '../../assets/team/amanda-galvao.png';
 import amandaSales from '../../assets/team/amanda-sales.png';
+import arturGadelha from '../../assets/team/artur-gadelha.png';
 import eduardoSoares from '../../assets/team/eduardo-soares.png';
 import flavioStudart from '../../assets/team/flavio-studart.png';
 import laylaMenezes from '../../assets/team/layla-menezes.png';
 import liviaMota from '../../assets/team/livia-mota.png';
 import mariliaDantas from '../../assets/team/marilia-dantas.png';
+import moniqueChaves from '../../assets/team/monique-chaves.png';
 import oliviaMagalhaes from '../../assets/team/olivia-magalhaes.png';
 import phGalvao from '../../assets/team/pedro-henrique-galvao.png';
 import renataBraga from '../../assets/team/renata-braga.png';
@@ -29,84 +31,91 @@ const Team = () => {
       specialty: 'Farmácia Estética',
       crm: 'CRF/CE 8134',
       photo: amandaGalvao,
-      bio: 'Especialista em procedimentos estéticos avançados e cuidados farmacêuticos, focada em saúde estética e bem-estar.',
+      bio: 'Especialista em procedimentos estéticos avançados, focada em saúde estética e bem-estar.',
     },
     {
       name: 'Dra. Amanda Sales',
       specialty: 'Nutrição',
       crm: 'CRN/CE 118782',
       photo: amandaSales,
-      bio: 'Focada em reeducação alimentar e nutrição clínica, promovendo saúde e qualidade de vida através de planos alimentares personalizados.',
+      bio: 'Focada em reeducação alimentar e nutrição clínica, promovendo saúde e qualidade de vida.',
     },
     {
       name: 'Dr. Artur Gadelha',
       specialty: 'Clínica Médica',
       crm: 'CRM/CE 23594',
-      photo: photoMock,
-      bio: 'Atendimento médico integral e preventivo, focado no diagnóstico e acompanhamento geral da saúde para todas as idades.',
-    },
-    {
-      name: 'Dra. Cybelle Façanha',
-      specialty: 'Nutrição Esportiva e Ortomolecular',
-      crm: 'CRN/CE 8498',
-      photo: photoMock,
-      bio: 'Especialista em performance esportiva e equilíbrio metabólico, utilizando a nutrição ortomolecular para otimizar resultados.',
+      photo: arturGadelha,
+      bio: 'Atendimento médico integral e preventivo, para diagnóstico e acompanhamento geral da saúde.',
     },
     {
       name: 'Dr. Davi Candeira',
       specialty: 'Dermatologia',
       crm: 'CRM/CE 23691',
       photo: photoMock,
-      bio: 'Especialista no diagnóstico e tratamento de doenças da pele, cabelos e unhas, além de procedimentos dermatológicos estéticos.',
+      bio: 'Especialista no diagnóstico e tratamento de doenças da pele, cabelos e unhas.',
     },
     {
       name: 'Dr. Eduardo Soares',
       specialty: 'Ultrassonografia',
       crm: 'CRM/CE 12578',
       photo: eduardoSoares,
-      bio: 'Especialista em diagnóstico por imagem, realizando exames de ultrassonografia com precisão para suporte clínico e preventivo.',
+      bio: 'Especialista em diagnóstico por imagem, realizando exames de ultrassonografia com precisão.',
     },
     {
       name: 'Dr. Flávio Studart',
       specialty: 'Cardiologia',
       crm: 'CRM/CE 11583',
       photo: flavioStudart,
-      bio: 'Especialista em saúde do coração, com foco na prevenção, diagnóstico e tratamento de doenças cardiovasculares.',
+      bio: 'Especialista em saúde do coração, com foco na prevenção, diagnóstico e tratamentos cardiovasculares.',
     },
     {
       name: 'Dr. Gilmar Rodrigues',
       specialty: 'Psiquiatria',
       crm: 'CRM/CE 27182',
       photo: photoMock,
-      bio: 'Médico dedicado ao diagnóstico e tratamento de transtornos mentais, buscando o equilíbrio psíquico e bem-estar do paciente.',
+      bio: 'Médico dedicado ao diagnóstico e tratamento de transtornos mentais, buscando o equilíbrio e bem-estar.',
     },
     {
       name: 'Dra. Jamille Morais',
       specialty: 'Nutrição Infantil',
       crm: 'CRN/CE 116593',
       photo: photoMock,
-      bio: 'Nutricionista especializada no cuidado alimentar de crianças, focada em introdução alimentar e hábitos saudáveis desde a infância.',
+      bio: 'Nutricionista especializada no cuidado alimentar de crianças, introdução alimentar e hábitos saudáveis.',
     },
     {
       name: 'Dra. Layla Menezes',
       specialty: 'Psicologia',
       crm: 'CRP/CE 1118405',
       photo: laylaMenezes,
-      bio: 'Cuidado da saúde mental e emocional através de psicoterapia personalizada, auxiliando no autoconhecimento e equilíbrio.',
+      bio: 'Cuidado da saúde mental e emocional através de psicoterapia personalizada, autoconhecimento e equilíbrio.',
+    },
+    {
+      name: 'Dra. Letícia Facundo',
+      specialty: '',
+      crm: '',
+      photo: photoMock,
+      bio: '',
     },
     {
       name: 'Dra. Lívia Mota',
       specialty: 'Pediatria',
       crm: 'CRM/CE 19833',
       photo: liviaMota,
-      bio: 'Atendimento especializado para bebês e crianças, focada no desenvolvimento infantil saudável e medicina preventiva.',
+      bio: 'Atendimento especializado para bebês e crianças, focada no desenvolvimento infantil saudável.',
     },
     {
       name: 'Dra. Marília Dantas',
       specialty: 'Psicologia do Trânsito',
       crm: 'CRP/CE 1105603',
       photo: mariliaDantas,
-      bio: 'Psicóloga perita especializada em avaliações psicológicas para condutores e análise do comportamento no trânsito.',
+      bio: 'Psicóloga perita especializada em avaliações psicológicas e análise do comportamento no trânsito.',
+    },
+    {
+      name: 'Dra. Monique Chaves',
+      specialty: 'Clínica Médica',
+      crm: 'CRM/CE 30209',
+      photo: moniqueChaves,
+      bio: 'Atendimento médico integral e preventivo, para diagnóstico e acompanhamento geral da saúde.',
     },
     {
       name: 'Dra. Olívia Magalhães',
@@ -120,28 +129,28 @@ const Team = () => {
       specialty: 'Nutrologia | Geriatria',
       crm: 'CRM/CE 14871',
       photo: phGalvao,
-      bio: 'Focado no tratamento de doenças ligadas à nutrição e no cuidado especializado para a saúde e longevidade do idoso.',
+      bio: 'Focado em tratamentos relacionados à nutrição e no cuidado especializado para a saúde do idoso.',
     },
     {
       name: 'Dra. Renata Braga',
       specialty: 'Psicologia',
       crm: 'CRP/CE 1115683',
       photo: renataBraga,
-      bio: 'Apoio psicológico e psicoterapia para o tratamento de questões emocionais, visando a saúde mental e qualidade de vida.',
+      bio: 'Apoio psicológico e psicoterapia para o tratamentos emocionais, visando a saúde mental e qualidade de vida.',
     },
     {
       name: 'Dra. Romênia Oliveira',
       specialty: 'Fonoaudiologia',
       crm: 'CRFA 8-10.978-3',
       photo: romeniaOliveira,
-      bio: 'Especialista em comunicação, fala e audição, atuando na reabilitação e aprimoramento das funções orofaciais.',
+      bio: 'Especialista em comunicação, fala, audição e aprimoramento das funções orofaciais.',
     },
     {
       name: 'Dra. Sherliane Furtado',
       specialty: 'Fisioterapia',
       crm: 'CREFITO 405612-F',
       photo: sherlianeFurtado,
-      bio: 'Especialista em reabilitação física e tratamento de dores, focada na recuperação funcional e mobilidade dos pacientes.',
+      bio: 'Especialista em reabilitação física e tratamento de dores, focada na recuperação funcional e mobilidade.',
     }
   ];
 

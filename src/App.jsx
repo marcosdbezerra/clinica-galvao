@@ -17,7 +17,6 @@ function App() {
         <Hero />
         <AboutCEO />
         <Specialties />
-        <Environment />
         <Team />
         <Location />
       </main>
